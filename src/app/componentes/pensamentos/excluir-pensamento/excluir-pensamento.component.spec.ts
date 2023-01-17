@@ -2,13 +2,13 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ExcluirPensamentoComponent } from './excluir-pensamento.component';
 
-describe('ListarPensamentoComponent', () => {
+describe('ExcluirPensamentoComponent', () => {
   let component: ExcluirPensamentoComponent;
   let fixture: ComponentFixture<ExcluirPensamentoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ExcluirPensamentoComponent]
+      declarations: [ ExcluirPensamentoComponent ]
     })
     .compileComponents();
 
